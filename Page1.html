@@ -10,13 +10,37 @@
 </head>
   <body style="background-color: black;">
 
-    
-    <h1 class="text1">solar system</h1>
-    <div class="container-fluid mt-3">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="page1.html">Page 1</a></li>
-        <li><a href="page2.html">Page 2</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page1.html">page1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page2.html">page2</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">page1</a></li>
+                  <li><a class="dropdown-item" href="#">page2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 class="text1">Solar system</h1>
+
 <h1 class="text1">Mars</h1>
 <img src="https://a-z-animals.com/media/2023/06/shutterstock-2183012463-huge-licensed-scaled.jpg" width="300" height="200">
 
